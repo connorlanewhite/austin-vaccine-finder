@@ -21,9 +21,9 @@ Here's what you'll need to do (and apologies for not being super detailed in all
     * <img width=400 src="https://user-images.githubusercontent.com/13944198/110836459-b1ba0c80-8265-11eb-9a9d-9f643625b1af.png">
 11. After creating the webhook, navigate to "my applets"
 12. Click on your applet
-13. Hit the little webhook icon (not the bell) and then hit settings in the top right
-14. Copy the text that's in the URL as pictured (what's blacked out)
-    * <img width=400 src="https://user-images.githubusercontent.com/13944198/110836849-268d4680-8266-11eb-8d64-a76c54cdc3f1.jpg">
+13. Hit the little webhook icon (not the bell) and then hit "documentation" in the top right
+14. Copy the text that's after "Your key is:" as pictured
+    * <img width="247" alt="image" src="https://user-images.githubusercontent.com/13944198/110837255-9c91ad80-8266-11eb-829c-f059c7451463.png">
 15. Replace line 36's empty string with that copied text... but you know, still in the quotes
 
 ## How to run it
