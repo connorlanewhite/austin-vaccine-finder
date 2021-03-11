@@ -16,12 +16,11 @@ from rich.live import Live
 rich_console = Console()
 
 TX_JSON_URLS = [
-    # "https://www.vaccinespotter.org/api/v0/stores/TX/albertsons.json",
-    # "https://www.vaccinespotter.org/api/v0/stores/TX/cvs.json",
-    # # "https://www.vaccinespotter.org/api/v0/stores/TX/heb.json",
-    # "https://www.vaccinespotter.org/api/v0/stores/TX/sams_club.json",
-    # "https://www.vaccinespotter.org/api/v0/stores/TX/walgreens.json",
-    # "https://www.vaccinespotter.org/api/v0/stores/TX/walmart.json",
+    "https://www.vaccinespotter.org/api/v0/stores/TX/albertsons.json",
+    "https://www.vaccinespotter.org/api/v0/stores/TX/cvs.json",
+    "https://www.vaccinespotter.org/api/v0/stores/TX/sams_club.json",
+    "https://www.vaccinespotter.org/api/v0/stores/TX/walgreens.json",
+    "https://www.vaccinespotter.org/api/v0/stores/TX/walmart.json",
 ]
 
 TX_BOOKING_URLS = {
@@ -340,7 +339,7 @@ def filtered_results_for_all_providers(
                 appts_available = True
 
         results_table.add_row(
-            result.get("brand") if result.get("brand") else "HEB direct",
+            result.get("brand") if result.get("brand") else "heb",
             result.get("city"),
             result.get("miles"),
             has_appointments,
